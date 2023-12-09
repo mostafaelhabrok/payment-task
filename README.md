@@ -69,35 +69,35 @@ php artisan serve
 #### For Success:
 
 ```
-Card Number: 4242 4242 4242 4242
+4242 4242 4242 4242
 ```
 
 
 #### For Card Declined (Insufficient Funds):
 
 ```
-Card Number: 4000 0000 0000 9995
+4000 0000 0000 9995
 ```
 
 
 #### For Card Declined (Incorrect CVC):
 
 ```
-Card Number: 4000 0000 0000 0127
+4000 0000 0000 0127
 ```
 
 
 #### For Card Declined (Expired Card):
 
 ```
-Card Number: 4000 0000 0000 0069
+4000 0000 0000 0069
 ```
 
 
 #### For Card Declined (Processing Error):
 
 ```
-Card Number: 4000 0000 0000 0119
+4000 0000 0000 0119
 ```
 
 
