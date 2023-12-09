@@ -44,8 +44,8 @@ $title = 'Payment Form'
                         </div>
 
                         <div class="form-group">
-                            <label for="amount">Amount</label>
-                            <input type="number" step="any" class="form-control" id="amount" placeholder="Enter Amount" required>
+                            <label for="amount">Amount ($)</label>
+                            <input type="number" step="any" class="form-control" id="amount" placeholder="Enter Amount in USD" required>
                         </div>
 
                         <button id="submit_payment" type="submit" class="btn btn-primary">Submit Payment</button>
