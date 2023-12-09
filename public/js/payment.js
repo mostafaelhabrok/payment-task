@@ -124,9 +124,22 @@ class Payment {
             displayError.textContent = '';
         }
     }
+
+    static hideLoading(div) {
+        $(".centerloader").hide();
+        $(div).removeClass("div-disable");
+    }
+
 }
 
 $(document).ready(function () {
     var payment = new Payment(publishable_key);
 });
+
+
+
+window.addEventListener('load', function() {
+    Payment.hideLoading("#payment-form");
+});
+  
 

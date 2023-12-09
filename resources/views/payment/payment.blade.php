@@ -19,7 +19,8 @@ $title = 'Payment Form'
                 <div class="card-body">
                     <h5 class="card-title">Payment Information</h5>
 
-                    <form id="payment-form">
+                    <div class="centerloader"></div>
+                    <form class="div-disable" id="payment-form">
 
                         <div class="form-group">
                             <label for="cardNumber">Card Number</label>
