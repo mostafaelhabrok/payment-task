@@ -24,17 +24,17 @@ $title = 'Payment Form'
 
                         <div class="form-group">
                             <label for="cardNumber">Card Number</label>
-                            <div type="text" class="form-control" id="cardNumber" placeholder="Enter card number"></div>
+                            <div class="form-control" id="cardNumber"></div>
                         </div>
 
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="expiryDate">Expiry Date</label>
-                                <div type="text" class="form-control" id="expiryDate" placeholder="MM/YY"></div>
+                                <div class="form-control" id="expiryDate"></div>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="cvv">CVV</label>
-                                <div type="text" class="form-control" id="cvv" placeholder="CVV"></div>
+                                <div class="form-control" id="cvv"></div>
                             </div>
                         </div>
 
